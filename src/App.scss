@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+  margin: 0;
+  background-color: #fefae0;
+
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #e9edc9;
+  padding: 2rem 0rem;
+
+  h1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    background-color: #e9edc9;
+    
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    list-style: none;
+    gap: 0.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    background-color: #e9edc9;
+
+    li{
+      background-color: #e9edc9;
+    }
+  }
+}
+
+.body {
+  
+  height: 100vh;
+  width: 100vw;
+  background-image:  url("../public/assets/mate.png");
+  background: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+
+  
+}

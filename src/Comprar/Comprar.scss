@@ -1,0 +1,26 @@
+.comprar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+
+  p {
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+
+    &:hover{
+      color: #cea135;
+      letter-spacing: 2px;
+    }
+  }
+  img{
+      width: 20rem;
+      height: auto;
+  }
+}
